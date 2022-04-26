@@ -7,8 +7,8 @@ def main():
     """Start a number guessing game between 1 - 100."""
     print("guess the number!")
 
-    X = random.gammavariate(1, 100)
-    # x = random.betavariate(1, 2)
+   # X = random.gammavariate(1, 100)
+     x = random.betavariate(1, 2)
     print(X)
     guess = None
 
